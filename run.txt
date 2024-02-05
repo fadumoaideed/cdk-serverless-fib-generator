@@ -1,0 +1,6 @@
+To get backend running cd in backend and run : `node app.js
+docker build .
+docker run -it -p 80:80 bb5b93f44dce
+
+after cdk deploy go to
+http://farga-backe-1bpvjlnggssegrwg-sewny967.us-east-1.elb.amazonaws.com/generate/32

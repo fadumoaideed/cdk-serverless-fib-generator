@@ -21,7 +21,13 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
+    "@aws-cdk/aws-cloudfront": "^1.126.0",
+    "@aws-cdk/aws-cloudfront-origins": "^1.126.0",
+    "@aws-cdk/aws-ecs": "^1.126.0",
+    "@aws-cdk/aws-ecs-patterns": "^1.126.0",
+    "@aws-cdk/aws-s3-deployment": "^1.126.0",
     "@aws-cdk/core": "1.119.0",
+    "express": "^4.17.1",
     "source-map-support": "^0.5.16"
   }
 }

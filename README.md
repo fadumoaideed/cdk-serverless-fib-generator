@@ -1,6 +1,6 @@
 # Welcome to your CDK TypeScript project!
 
-This is a blank project for TypeScript development with CDK.
+Fib generator using this tutorial https://enlear.academy/aws-cdk-a-beginners-guide-with-examples-424c600ac409 
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 

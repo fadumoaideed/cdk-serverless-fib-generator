@@ -1,6 +1,11 @@
 {
   "app": "npx ts-node --prefer-ts-exts bin/serverless-cdk.ts",
   "context": {
+    "stages": {
+      "dev": {
+        "certificateArn": "arn:aws:acm:us-east-1:975608782524:certificate/ba307aa7-fd8b-4561-bb68-0215624a35f0"
+      }
+    },
     "@aws-cdk/aws-apigateway:usagePlanKeyOrderInsensitiveId": true,
     "@aws-cdk/core:enableStackNameDuplicates": "true",
     "aws-cdk:enableDiffNoFail": "true",
